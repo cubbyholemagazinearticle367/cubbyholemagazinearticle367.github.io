@@ -1,0 +1,25 @@
+:root {
+  --accent: #2f7df6;
+}
+
+.site-title,
+.site-title:visited {
+  font-weight: 700;
+}
+
+.post-content img {
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+blockquote {
+  border-left: 4px solid var(--accent);
+  padding-left: 1rem;
+  color: #444;
+}
+
+code,
+pre {
+  border-radius: 6px;
+}

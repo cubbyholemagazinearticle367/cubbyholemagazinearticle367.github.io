@@ -1,0 +1,27 @@
+title: Pina Applied AI Lab
+description: Practical AI workflow tools, case studies, and implementation notes by Gabriel Pina.
+url: "https://spitnik11.github.io"
+baseurl: ""
+repository: spitnik11/spitnik11.github.io
+
+author:
+  name: Gabriel Pina
+  github: spitnik11
+  linkedin: gabriel-pina-498023113
+
+# GitHub Pages supports Jekyll by default. This theme keeps setup simple.
+theme: minima
+
+# Site navigation used by the theme.
+header_pages:
+  - about.md
+  - projects.md
+  - prompting.md
+  - blog.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
