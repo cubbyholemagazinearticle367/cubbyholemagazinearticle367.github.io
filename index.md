@@ -4,8 +4,6 @@ title: Projects
 permalink: /
 ---
 
-# Projects
-
 A running list of applied AI projects, newest to oldest. Each project links to a full case study with the problem, workflow, technical build, limitations, and next iteration.
 
 <div class="project-feed">
