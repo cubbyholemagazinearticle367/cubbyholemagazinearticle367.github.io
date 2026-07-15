@@ -19,7 +19,7 @@ KnowledgeOps Copilot is the first project in my applied AI portfolio. It shows h
 
 KnowledgeOps Copilot is a local Python desktop app that helps a user search a folder of documents and receive source-backed answers. The goal is not to replace human judgment. The goal is to make scattered knowledge easier to find, review, and explain.
 
-Repository: [github.com/spitnik11/knowledgeops-copilot](https://github.com/spitnik11/knowledgeops-copilot)
+Repository: [github.com/spitnik11/knowledgeops-copilot](https://github.com/spitnik11)
 
 ## The business problem
 

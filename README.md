@@ -73,3 +73,14 @@ Example:
 ```
 
 Every post should include a `description:` field because the homepage uses it as the short teaser under the project title.
+
+
+## Latest requested changes
+
+- Removed the GitHub button from the top header.
+- Added Home as the first link in the sidebar.
+- Replaced project-specific GitHub links with a simple GitHub profile link.
+- Removed Projects and Blog pages.
+- Removed the featured project sidebar.
+- Made homepage post cards larger.
+- Replaced the KnowledgeOps screenshot with `assets/images/knowledgeops-demo.png`.
