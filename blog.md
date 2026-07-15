@@ -6,8 +6,14 @@ permalink: /blog/
 
 # Blog
 
-This is where I publish short case studies, build notes, and lessons learned from applied AI workflow projects.
+Short case studies, build notes, and lessons learned from applied AI workflow projects.
 
-## Posts
+## Latest posts
 
-- [Building a Local KnowledgeOps Copilot](/case-study/2026/07/10/knowledgeops-copilot/)
+{% for post in site.posts %}
+<article class="post-list-item">
+  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+  <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+  <p>{{ post.excerpt | strip_html | truncate: 220 }}</p>
+</article>
+{% endfor %}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: 'en-US' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  </head>
+  <body>
+    <header class="masthead" role="banner">
+      <div class="site-frame masthead-inner">
+        <p class="site-kicker">Applied AI Portfolio</p>
+        <a class="site-title-custom" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+        <p class="site-description">{{ site.description | escape }}</p>
+
+        <nav class="top-links" aria-label="Primary navigation">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/projects/' | relative_url }}">Projects</a>
+          <a href="{{ '/blog/' | relative_url }}">Blog</a>
+          <a href="{{ '/prompting/' | relative_url }}">Prompting</a>
+          <a href="{{ '/about/' | relative_url }}">About</a>
+          <a href="https://github.com/spitnik11/knowledgeops-copilot">KnowledgeOps Repo</a>
+          <a href="https://www.linkedin.com/in/gabriel-pina-498023113">LinkedIn</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="site-frame layout-shell">
+      <main class="content-panel" aria-label="Content">
+        {{ content }}
+      </main>
+
+      <aside class="author-sidebar" aria-label="Author and links">
+        <section class="sidebar-card author-card">
+          <p class="sidebar-eyebrow">By</p>
+          <h2>Gabriel Pina</h2>
+          <p>
+            Applied AI workflow builder focused on local Python tools, source-backed answers,
+            project documentation, and practical automation.
+          </p>
+          <div class="sidebar-links">
+            <a href="https://github.com/spitnik11">GitHub</a>
+            <a href="https://www.linkedin.com/in/gabriel-pina-498023113">LinkedIn</a>
+            <a href="https://github.com/spitnik11/knowledgeops-copilot">KnowledgeOps Copilot</a>
+            <a href="{{ '/about/' | relative_url }}">About me</a>
+          </div>
+        </section>
+
+        <section class="sidebar-card">
+          <h3>Current focus</h3>
+          <ul class="tight-list">
+            <li>Local-first AI apps</li>
+            <li>Python desktop tools</li>
+            <li>Workflow documentation</li>
+            <li>Human-supervised automation</li>
+          </ul>
+        </section>
+
+        <section class="sidebar-card">
+          <h3>Featured project</h3>
+          <p>KnowledgeOps Copilot: a local document-search assistant with source-backed answers.</p>
+          <a class="button-link" href="{{ '/case-study/2026/07/10/knowledgeops-copilot/' | relative_url }}">Read case study</a>
+        </section>
+      </aside>
+    </div>
+
+    <footer class="site-footer-custom">
+      <div class="site-frame footer-inner">
+        <span>© {{ site.time | date: '%Y' }} Gabriel Pina</span>
+        <span>Built with GitHub Pages and Jekyll.</span>
+      </div>
+    </footer>
+  </body>
+</html>
