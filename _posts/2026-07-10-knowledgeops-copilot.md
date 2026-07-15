@@ -1,11 +1,13 @@
 ---
-layout: post
+layout: default
 title: "KnowledgeOps Copilot"
 description: "A local Python desktop app that searches internal documents, returns source-backed answers, shows confidence, and keeps human review in the workflow."
 date: 2026-07-10
 categories: case-study
 tags: [python, ai, workflow, knowledge-management, desktop-app]
 ---
+
+# KnowledgeOps Copilot
 
 ![KnowledgeOps Copilot app screenshot](/assets/images/knowledgeops-demo.png)
 

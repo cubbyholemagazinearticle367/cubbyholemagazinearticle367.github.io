@@ -1,33 +1,75 @@
-# Duplicate Heading + Homepage Feed Patch
+# Pina Applied AI Lab
 
-This patch is for:
+GitHub Pages portfolio and case-study site for Gabriel Pina. The site uses a dark-mode design by default.
 
-`C:\Users\losth\Desktop\spitnik11.github.io`
+Suggested repository name:
 
-It does four things:
-
-1. Removes duplicated first Markdown headings when they match the page title.
-2. Replaces the homepage with only a newest-to-oldest project/post feed.
-3. Adds a short description to the KnowledgeOps post so the homepage teaser looks clean.
-4. Adds CSS for the simplified project feed.
-
-## How to run
-
-Extract this patch folder, open PowerShell inside it, then run:
-
-```powershell
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-.\APPLY_FIX_DUPLICATE_HEADINGS_PATCH.ps1
+```text
+spitnik11.github.io
 ```
 
-Then push your site:
+After publishing, the site should be available at:
+
+```text
+https://spitnik11.github.io
+```
+
+## Included pages
+
+- Home project feed
+- About/Bio
+- Prompting Practices
+- First case study post: KnowledgeOps Copilot
+
+The old `projects.md` and `blog.md` pages were intentionally removed to keep the site simpler. The homepage now acts as the project/post feed.
+
+## Screenshot setup
+
+The site expects your app screenshot here:
+
+```text
+assets/images/knowledgeops-demo.png
+```
+
+Save your real screenshot with that same filename. The first post already points to that path.
+
+## Push updates
+
+From Desktop:
 
 ```powershell
 cd "$env:USERPROFILE\Desktop\spitnik11.github.io"
-git add .
-git commit -m "Fix duplicate headings and simplify homepage feed"
+git add -A
+git commit -m "Update portfolio site"
 git pull origin main --rebase
 git push
 ```
 
-Or use your double-click push script if it is already inside the site folder.
+## Editing the site
+
+Main files:
+
+```text
+index.md       = homepage project feed
+about.md       = bio page
+prompting.md   = prompting practices page
+_posts/        = case-study posts
+assets/main.scss = site styling
+_layouts/default.html = header/sidebar/footer layout
+```
+
+## Adding a new project post
+
+Create a new file in `_posts/` using this format:
+
+```text
+YYYY-MM-DD-project-title.md
+```
+
+Example:
+
+```text
+2026-07-20-service-triage-copilot.md
+```
+
+Every post should include a `description:` field because the homepage uses it as the short teaser under the project title.

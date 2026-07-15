@@ -1,6 +1,6 @@
 ---
-layout: page
-title: About
+layout: default
+title: "About Gabriel Pina"
 permalink: /about/
 ---
 
@@ -27,7 +27,6 @@ Python, JavaScript, SQL, HTML/CSS, SQLite, Git, Streamlit, Electron.js, Node.js,
 
 - GitHub: [github.com/spitnik11](https://github.com/spitnik11)
 - LinkedIn: [linkedin.com/in/gabriel-pina-498023113](https://linkedin.com/in/gabriel-pina-498023113)
-- Featured project: [KnowledgeOps Copilot](https://github.com/spitnik11/knowledgeops-copilot)
 
 ## Professional positioning
 

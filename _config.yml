@@ -12,12 +12,10 @@ author:
 # GitHub Pages supports Jekyll by default. This theme keeps setup simple.
 theme: minima
 
-# Site navigation used by the theme.
+# Header pages are intentionally minimal because the custom header uses a clean layout.
 header_pages:
   - about.md
-  - projects.md
   - prompting.md
-  - blog.md
 
 plugins:
   - jekyll-feed

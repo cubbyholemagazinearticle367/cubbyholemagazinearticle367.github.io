@@ -1,0 +1,6 @@
+If you copy this zip over your existing site folder instead of fully replacing it, delete these old files manually:
+
+projects.md
+blog.md
+
+They were removed from the simplified site structure.

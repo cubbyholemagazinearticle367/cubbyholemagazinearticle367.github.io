@@ -1,10 +1,10 @@
 ---
-layout: page
-title: Prompting Practices
+layout: default
+title: "Best Prompting Practices"
 permalink: /prompting/
 ---
 
-# Best Prompting Practices for Practical AI Workflows
+# Best Prompting Practices
 
 Good prompting is not just about getting a clever answer. For business and technical workflows, good prompting means creating outputs that are useful, checkable, and easy for a human to review.
 
@@ -33,7 +33,7 @@ Useful context includes:
 
 ## 3. Ask for source-aware answers
 
-For knowledge-base and documentation tools, the AI should explain where the answer came from. In my own projects, I prefer answers that cite file names, document sections, or retrieved snippets instead of pretending the system “just knows.”
+For knowledge-base and documentation tools, the AI should explain where the answer came from. I prefer answers that cite file names, document sections, or retrieved snippets instead of pretending the system “just knows.”
 
 ## 4. Force uncertainty instead of bluffing
 

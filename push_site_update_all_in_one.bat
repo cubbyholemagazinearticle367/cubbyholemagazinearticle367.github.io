@@ -3,9 +3,6 @@ setlocal
 
 REM All-in-one double-click Git push script for:
 REM C:\Users\losth\Desktop\spitnik11.github.io
-REM
-REM Put this .bat file directly inside the spitnik11.github.io folder.
-REM Then double-click it whenever you want to push site updates.
 
 cd /d "%~dp0"
 
@@ -18,7 +15,6 @@ echo Current folder:
 echo %cd%
 echo.
 
-REM Confirm this looks like a Git repo.
 if not exist ".git" (
     echo ERROR: This folder does not contain a .git folder.
     echo Make sure this file is inside:
@@ -28,7 +24,6 @@ if not exist ".git" (
     exit /b 1
 )
 
-REM Ask for a commit message.
 set /p COMMIT_MSG=Enter commit message or press Enter for default: 
 
 if "%COMMIT_MSG%"=="" (
@@ -37,7 +32,7 @@ if "%COMMIT_MSG%"=="" (
 
 echo.
 echo Adding changed files...
-git add .
+git add -A
 
 echo.
 echo Checking for changes...
