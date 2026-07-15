@@ -1,0 +1,40 @@
+/* PROJECT FEED HOMEPAGE */
+.project-feed-item {
+  padding: 1.35rem 0;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.22);
+}
+
+.project-feed-item:first-of-type {
+  padding-top: 0;
+}
+
+.project-feed-title {
+  display: inline-block;
+  color: #f8fafc;
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.25;
+  text-decoration: none;
+  letter-spacing: -0.02em;
+}
+
+.project-feed-title:hover {
+  color: #93c5fd;
+  text-decoration: underline;
+}
+
+.project-feed-item p {
+  margin: 0.55rem 0 0.65rem;
+  color: #cbd5e1;
+  line-height: 1.65;
+}
+
+.project-feed-link {
+  color: #93c5fd;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.project-feed-link:hover {
+  text-decoration: underline;
+}
