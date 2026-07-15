@@ -1,6 +1,6 @@
 # Pina Applied AI Lab
 
-GitHub Pages portfolio and case-study site for Gabriel Pina.
+GitHub Pages portfolio and case-study site for Gabriel Pina. The site uses a dark-mode design by default.
 
 Suggested repository name:
 
@@ -25,13 +25,13 @@ https://spitnik11.github.io
 
 ## Screenshot setup
 
-The site currently includes a placeholder app screenshot:
+The site currently includes a placeholder app screenshot. Replace it with your real app screenshot:
 
 ```text
-assets/images/knowledgeops-copilot-demo.png
+assets/images/knowledgeops-demo.png
 ```
 
-Replace that file with your real screenshot using the same filename. The home page, projects page, and first post already point to that path.
+Save your real screenshot with that same filename. The home page, projects page, and first post already point to that path.
 
 ## PowerShell setup
 

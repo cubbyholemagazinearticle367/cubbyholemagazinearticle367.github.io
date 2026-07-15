@@ -28,7 +28,16 @@ What is the password reset process?
 7. Save the image as:
 
 ```text
-$env:USERPROFILE\Desktop\spitnik11.github.io\assets\images\knowledgeops-copilot-demo.png
+$env:USERPROFILE\Desktop\spitnik11.github.io\assets\images\knowledgeops-demo.png
 ```
 
-The site already points to this image path, so replacing the placeholder file is all you need to do.
+Important: the site now points to `assets/images/knowledgeops-demo.png`. Windows may hide `.png`, so a file that appears as `knowledgeops-demo` may already be correct.
+
+## Optional copy script
+
+If you save the screenshot in the app project under `screenshots`, you can run:
+
+```powershell
+cd "$env:USERPROFILE\Desktop\spitnik11.github.io"
+.\scripts\copy_knowledgeops_screenshot.ps1
+```

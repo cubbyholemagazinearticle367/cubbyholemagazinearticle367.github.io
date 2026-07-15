@@ -10,7 +10,7 @@ permalink: /projects/
 
 A local Python desktop app for searching documents and returning source-backed answers.
 
-![KnowledgeOps Copilot app screenshot](/assets/images/knowledgeops-copilot-demo.png)
+![KnowledgeOps Copilot app screenshot](/assets/images/knowledgeops-demo.png)
 
 ### Why it matters
 

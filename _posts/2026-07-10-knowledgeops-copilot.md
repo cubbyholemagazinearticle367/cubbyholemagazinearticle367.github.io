@@ -6,7 +6,7 @@ categories: case-study
 tags: [python, ai, workflow, knowledge-management, desktop-app]
 ---
 
-![KnowledgeOps Copilot app screenshot](/assets/images/knowledgeops-copilot-demo.png)
+![KnowledgeOps Copilot app screenshot](/assets/images/knowledgeops-demo.png)
 
 ## Project summary
 

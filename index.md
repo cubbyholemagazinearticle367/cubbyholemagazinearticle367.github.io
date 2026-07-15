@@ -15,7 +15,7 @@ This site is the home base for my applied AI portfolio. Each project combines a 
 
 KnowledgeOps Copilot is a local Python desktop app for searching internal documents, surfacing source-backed answers, and keeping human judgment in the loop.
 
-![KnowledgeOps Copilot app screenshot](/assets/images/knowledgeops-copilot-demo.png)
+![KnowledgeOps Copilot app screenshot](/assets/images/knowledgeops-demo.png)
 
 **Project repo:** [github.com/spitnik11/knowledgeops-copilot](https://github.com/spitnik11/knowledgeops-copilot)
 
